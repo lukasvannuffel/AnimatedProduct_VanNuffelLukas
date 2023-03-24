@@ -55,7 +55,7 @@ body {
     transform: translateX(-50%);
     left: 50%;
     margin-left: 100px;
-    margin-top: 900px;
+    margin-top: 400px;
     position: absolute;
   }
   
@@ -98,4 +98,26 @@ body {
     background-color: #222e36ef;
     color: white;
     transform: rotateY(180deg);
+  }
+  .card-pic{
+    width: 350px;
+    height: 230px;
+  }
+  .banner-picture{
+    background-color: blue;
+    background-image: url(../IMG/apple-banner.jpeg);
+    background-size: cover;
+    background-position-y: -290px;
+    width: 80vw;
+    height: 35vh;
+    margin-left: 220px;
+    border-radius: 15px;
+    animation-name: out;
+
+  }
+  .banner-picture:hover{
+    background-image: url(../IMG/apple-banner2.jpeg);
+    background-size: cover;
+    transition: ease-out 1s;
+    animation-name: out;
   }
